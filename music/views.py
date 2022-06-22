@@ -42,7 +42,7 @@ class AlbomApi(APIView):
         if s.is_valid():
             s.save()
         return Response(s.data)
-class Qoshiqlar(APIView):
+class QoshiqlarApi(APIView):
     def get(self,request):
         q=Qoshiq.objects.all()
         s=QoshiqSerializer(q,many=True)

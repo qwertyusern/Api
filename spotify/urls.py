@@ -10,4 +10,6 @@ urlpatterns = [
     path('qoshiqchi/<int:pk>/', QoshiqchiApi.as_view()),
     path('albomlar/', AlbomlarApi.as_view()),
     path('albom/<int:pk>/', AlbomApi.as_view()),
+    path('qoshiqlar/', QoshiqlarApi.as_view()),
+    path('qoshiq/<int:pk>/', QoshiqApi.as_view()),
 ]

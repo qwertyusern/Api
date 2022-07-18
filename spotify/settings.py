@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'music',
     'rest_framework',
     'rest_framework_simplejwt',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
